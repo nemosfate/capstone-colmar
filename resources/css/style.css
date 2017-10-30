@@ -1,0 +1,33 @@
+.logo-container {
+  height: 64px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.logo, nav ul {
+  width: 50%
+}
+
+#colmar {
+  margin-right: 0.25rem;
+}
+
+nav ul {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+a {
+  text-decoration-line: none;
+  text-decoration: none;
+}
