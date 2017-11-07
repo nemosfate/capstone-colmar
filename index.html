@@ -11,25 +11,173 @@
   </head>
 
   <body>
-    <!--header with nav-->
+<!--header with nav-->
+  <!--Desktop View-->
     <header class="logo-container">
       <div class="logo">
         <img src="./resources/images/ic-logo.svg" alt="Colmar Logo"/>
         <span id="colmar">Colmar</span>
-        <span>Academy</span>
+        <span id="academy">Academy</span>
       </div>
       <nav>
         <ul>
-          <li><a href="#"/>On Campus</li>
-          <li><a href="#"/>Online</li>
-          <li><a href="#"/>For Companies</li>
-          <li><a href="#"/>Sign In</li>
+          <li class="list-space"><a href="#"/>On Campus</a></li>
+          <li class="list-space"><a href="#"/>Online</a></li>
+          <li class="list-space"><a href="#"/>For Companies</a></li>
+          <li class="list-space-last"><a href="#"/>Sign In</a></li>
         </ul>
       </nav>
     </header>
-
-    <div>
+  <!--Mobile View-->
+    <header class="mobile-logo">
+      <img src="./resources/images/ic-logo.svg" alt="Colmar Logo"/>
+      <img src="./resources/images/ic-on-campus.svg" alt="On Campus"/>
+      <img src="./resources/images/ic-online.svg"  alt="Online"/>
+      <img src="./resources/images/ic-login.svg" alt="Sign In"/>
+    </header>
+<!--main content-->
+  <!--introduction banner-->
+    <div class="intro mobile-intro">
+      <img src="./resources/images/banner.jpg" alt="Students Studying"/>
+      <div class="banner-text-align">
+        <h1>LEARN SOMETHING NEW EVERYDAY
+        </h1>
+        <h3>Your Drive Commands Your Future
+        </h3>
+        <button class="start-button">Start Here</button>
+      </div>
     </div>
-
+  <!-- Information Section-->
+    <div class="info">
+      <div class="left-column">
+        <img src="./resources/images/information-main.jpg">
+        <h1>It doesn't hurt to keep practicing
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>Emanuel, Sr. Strategist at Hiring.com</p>
+      </div>
+      <div class="right-column">
+        <div class="orientation">
+          <div class="orientation-image">
+            <img src="./resources/images/information-orientation.jpg"/>
+          </div>
+          <div class="orientation-text">
+            <h2>Orientation Date</h2>
+            <p>Tues 10/11 & Weds 10/12: 8am-3pm<p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="locations">
+          <div class="location-image">
+            <img src="./resources/images/information-campus.jpg"/>
+          </div>
+          <div class="location-text">
+            <h2>Our Campus</h2>
+            <p>Find which location is close by you<p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="guest-speakers">
+          <div class="guest-speakers-image">
+            <img id="guest" src="./resources/images/information-guest-lecture.jpg"/>
+          </div>
+          <div class="guest-speakers-text">
+            <h2>Our Guest Lecture</h2>
+            <p>Join a keynote with Oliver Slack about music in medical treatment<p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--Course Info-->
+    <div class="courses">
+      <h1>Start Learning</h1>
+      <div class="courses-grid">
+        <div class="software-engineering">
+          <img src="./resources/images/course-software.jpg"/>
+          <h2>Software Engineering</h2>
+          <h4>Courses</h4>
+          <p>Web Development, Mobile,</br>development, IOT's, API's</p>
+        </div>
+        <div class="computer-art">
+          <img src="./resources/images/course-computer-art.jpg"/>
+          <h2>Computer Art</h2>
+          <h4>Courses</h4>
+          <p>Imaging & Design, Web Design,</br>Motion Graphics & Visual Effects,</br>Computer Animation</p>
+        </div>
+        <div class="design">
+          <img src="./resources/images/course-design.jpg"/>
+          <h2>Design</h2>
+          <h4>Courses</h4>
+          <p>User Experience Design, User,</br>Research, Visual Design</p>
+        </div>
+        <div class="data">
+          <img src="./resources/images/course-data.jpg"/>
+          <h2>Data</h2>
+          <h4>Courses</h4>
+          <p>Data Science, Big Data,</br>SQL, Data Visualization</p>
+        </div>
+        <div class="business">
+          <img src="./resources/images/course-business.jpg"/>
+          <h2>Business</h2>
+          <h4>Courses</h4>
+          <p>Product Development, Business,</br>Development, Startup</p>
+        </div>
+        <div class="marketing">
+          <img src="./resources/images/course-marketing.jpg"/>
+          <h2>Marketing</h2>
+          <h4>Courses</h4>
+          <p>Analytics, Content Marketing,,</br>Mobile Marketing</p>
+        </div>
+      </div>
+    </div>
+  <!--Mobile Courses-->
+    <div class="mobile-courses">
+      <ul>
+        <li>Software Engineering</li>
+        <li>Computer Art</li>
+        <li>Design</li>
+        <li>Data</li>
+        <li>Business</li>
+        <li>Marketing</li>
+      </ul>
+    </div>
+<!--Video Thesis-->
+    <div class="thesis">
+      <h2>Thesis Exhibit</h2>
+      <div class="thesis-container">
+        <div class="video">
+          <video autoplay loop>
+            <source src="./resources/videos/thesis.mp4" type="video/mp4">
+          </video>
+          <h4>Reimagine Urban</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="thesis-column-right">
+          <div class="thesis-image1">
+            <img src="./resources/images/thesis-fisma.jpg"/>
+            <span>Fisma: Design and Prototype</span>
+            <span>Designer showcase of a new product prototype</span>
+          </div>
+          <div class="thesis-image2">
+            <img src="./resources/images/thesis-now-and-then.jpg"/>
+            <span>Now and Then</span>
+            <span>Research study about New York</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot">
+        <div class="footcopy">
+          <span id="copyright">© 2017 Colmar Academy</span>
+        </div>
+        <nav class="footnav">
+          <span><a href="#" style="color: black">TERMS</a></span>
+          <span><a href="#" style="color: black">PRIVACY</a></span>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
