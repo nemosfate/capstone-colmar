@@ -354,5 +354,8 @@ video {
     min-width: 400px;
     height: auto;
   }
+  video {
+    max-width: 80%;
+  }
 
 }
