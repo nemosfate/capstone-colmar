@@ -333,15 +333,19 @@ video {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 24px;
     width: 100%;
     height: 64px;
+  }
+  .mobile-logo nth(last-child) {
+    margin-right: 2rem;
   }
   .mobile-intro, .mobile-intro img, .right-column {
     display: inline-block;
   }
   .mobile-intro img {
-    margin-left: 20%;
+    margin-left: 24px;
+    width: 90%;
   }
   .mobile-courses {
     display: block;
@@ -350,14 +354,14 @@ video {
     margin: 1.5rem 0px;
   }
   .banner-text-align button {
-    margin-left: 10%;
+    margin-left: 24px;
   }
   .right-column {
     width: auto;
     height: auto;
   }
   .mobile-courses {
-    margin-left: 10%;
+    margin-left: 24px;
     width: 90%;
   }
   .mobile-courses li {
