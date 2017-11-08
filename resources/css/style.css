@@ -373,6 +373,7 @@ video {
   }
   .mobile-courses li {
     margin-top: 1.5rem;
+    margin-left: 24px;
   }
   .mobile-thesis {
     display: block;
