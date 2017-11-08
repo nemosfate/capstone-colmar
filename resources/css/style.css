@@ -347,6 +347,13 @@ video {
     margin-left: 24px;
     width: 90%;
   }
+  button {
+    width: 80%;
+  }
+  .orientation, .locations, .guest-speakers {
+    width: 100%
+    margin-left:0.75rem;
+  }
   .mobile-courses {
     display: block;
     color: black;
@@ -367,13 +374,17 @@ video {
   .mobile-courses li {
     margin-top: 1.5rem;
   }
-  .mobile-video {
-    max-width: 1024px;
-    min-width: 400px;
+  .mobile-thesis {
+    display: block;
+  }
+  .mobile-thesis h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
   }
   video {
-    max-width: 100%%;
-    min-width: 85%;
+    max-width: 380px;
     height: auto;
   }
 
