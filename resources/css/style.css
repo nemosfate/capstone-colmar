@@ -333,7 +333,7 @@ video {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 10%;
     width: 100%;
     height: 64px;
   }
@@ -341,7 +341,7 @@ video {
     display: inline-block;
   }
   .mobile-intro img {
-    margin-left: 40%;
+    margin-left: 20%;
   }
   .mobile-courses {
     display: block;
@@ -349,9 +349,19 @@ video {
     background-color: hsl(185, 50%, 80%);
     margin: 1.5rem 0px;
   }
+  .banner-text-align button {
+    margin-left: 10%;
+  }
   .right-column {
     width: auto;
     height: auto;
+  }
+  .mobile-courses {
+    margin-left: 10%;
+    width: 90%;
+  }
+  .mobile-courses li {
+    margin-top: 1.5rem;
   }
   .mobile-video {
     max-width: 1024px;
