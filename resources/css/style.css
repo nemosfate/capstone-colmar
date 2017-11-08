@@ -350,8 +350,9 @@ video {
     margin: 1.5rem 0px;
   }
   .right-column {
-    width: auto;
+    max-width: 1024px;
+    min-width: 400px;
     height: auto;
   }
-  
+
 }
