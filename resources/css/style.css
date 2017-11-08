@@ -367,7 +367,7 @@ video {
     width: auto;
     height: auto;
   }
-  .mobile-courses {
+  .mobile-courses, .mobile-thesis, .courses h2 {
     margin-left: 24px;
     width: 90%;
   }
